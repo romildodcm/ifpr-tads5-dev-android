@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/margem"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/texto"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margem"
+        app:srcCompat="@drawable/flag"/>
+
+
+    <Button
+        android:id="@+id/btnPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margem"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/botao"/>
+
+    <TextView
+        android:id="@+id/txtPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="@dimen/margem"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pais"
+        android:visibility="invisible"/>
+
+
+
+
+
+
+</LinearLayout>
