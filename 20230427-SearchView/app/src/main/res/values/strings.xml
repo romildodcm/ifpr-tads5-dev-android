@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SearchView</string>
+    <string name="act_settings" />
+    <string name="act_search" />
+</resources>
